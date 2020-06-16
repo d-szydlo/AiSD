@@ -1,0 +1,9 @@
+Main znajduje sie w pliku zad2.py. Program przyjmuje parametry jak w tresci
+zadania, ale dodatkowo mozna dopisac opcje -s i dwie nazwy plikow, a wtedy
+uruchamia sie wersja gromadzaca statystyki i zapisuje je do podanych plikow - 
+do pierwszego dane o selectcie, do drugiego o randomized selectcie. W pliku
+lista3.xlsx znajduja sie statystyki z obliczonymi parametrami z polecenia.
+Widac, ze rozrzut miedzy minimum i maksimum jest o wiele wiekszy w przypadku
+randomized selecta, natomiast select wykonuje duzo wiecej porownan (zakladam, ze
+przez insertion sorta w srodku). Rowniez odchylenie standardowe selecta jest
+kilkukrotnie mniejsze niz w randomized selectcie.  

@@ -1,0 +1,18 @@
+W tym folderze znajduja sie wszystkie pliki z zadania drugiego z poprzedniej
+listy oraz plik radix.py z zaimplementowanym radix sortem. Zeby uruchomic sorto-
+wanie radixem trzeba podac odpowiedni parametr - --type radix. W pliku lista3.xlsx
+znajduje sie porownanie radixa z quicksortem i hybridem pod wzgledem czasu i 
+zuzycia pamieci. Wybralam te dwa, poniewaz quicksort jest najszybszy, a hybrid
+jest polaczeniem merge'a i insertiona. Nie umiesiclam tam porownania pod 
+wzgledem ilosci operacji, poniewaz zwykle rozpatrywalismy liczba porownan i 
+przestawien w tablicy, czego uzywajac counting sorta sie nie robi. Ewentualnym 
+odpowiednikiem jaki przychodzi mi do glowy jest liczba dodawan w tablicy counter,
+ktora jest rowna 19 razy liczba cyfr w najwiekszej liczbie w tablicy i liczba
+wstawien elementow do wyjsciowej tablicy, ktora jest rowna n. W plikach
+radix_i.txt znajduja sie statystyki dla radix sorta sortujacego liczby z zakresu
+od 0 do i. Pierwsza liczba to rozmiar tablicy, druga to czas wykonania, trzecia
+natomiast to zuzycie pamieci w MB. Czas wydluza sie z rozmiarem liczb, poniewaz
+maja wiecej cyfr, wiec wiecej razy wykonuje sie petla z counting sortem. Roznice
+w zuzyciu pamieci sa za to nieznaczne.
+
+

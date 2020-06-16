@@ -1,0 +1,5 @@
+zad4.py jest zmodyfikowana wersja zadania 2 z listy 2. Program przyjmuje za
+kazdym razem  parametr --type (dual, quick, dpsel, qssel) oraz opcjonalnie
+--stat z ktorym nalezy podac nazwe pliku do ktorego maja byc zapisane dane. W
+pliku lista3.xlsx znajduja sie zebrane dane dotyczace czasow dzialania
+algorytmow i liczbie wykonanych przez nie porownan.

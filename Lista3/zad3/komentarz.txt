@@ -1,0 +1,4 @@
+Program mozna wywolac bez argumentow, wtedy prosi nas o podanie danych. Mozna go
+takze uruchomic podajac opcje -s i nazwe pliku, a wtedy program uruchamia wersje
+gromadzaca statystyki i zapisujaca je do danego pliku. W pliku lista3.xlsx 
+znajduja sie zebrane przeze mnie dane i ich opracowanie. 
