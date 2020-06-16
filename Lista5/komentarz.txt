@@ -1,0 +1,15 @@
+Rozwiązania poszczególnych zadań znajdują się w plikach z rozszerzeniem
+.py o odpowiadającej nazwie. Kolejka jest zaimplementowana w osobnym pliku
+my_priority_queue.py. Dla każdego zadania przygotowałam przykładowy input,
+są to pliki z rozszerzeniem .txt i odpowiednim zadaniem w nazwie. Dla
+zadań od 2 do końca liczba po podkreślniku oznacza liczbę wierzchołków grafu
+znajdującego się w danym pliku. W zadaniu czwartym niestety nie udało mi się
+przeprowadzić testów dla grafu o liczbie wierzchołków większej od 5000, ponieważ
+pracuję na virtual boxie, który nie wykorzystuje w pełni zasobów mojego komputera
+i nie jest w stanie przetworzyć tak dużej ilości danych. Także nie wrzucam na
+svn pliku .txt z pełnym grafem o 5000 wierzchołkach do zadania 4, ponieważ plik
+ten waży prawie 200 MB. Nie udało mi się również przeprowadzić dla niego testu
+z podejściem wykorzystującym drzewo MST, ponieważ przekracza to możliwości mojego
+sprzętu. Wyniki jakie udało mi się uzyskać umieściłam w plikach zad4_stat_i.txt,
+gdzie i to liczba wierzchołków grafu, dla jakiego został przeprowadzony test.
+Są one opracowane w arkuszu lista5.xlsx.
