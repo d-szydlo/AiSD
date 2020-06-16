@@ -1,0 +1,31 @@
+Zadanie 1
+Zadanie 1 jest zrealizowane w czterech plikach - zad1.py, myBST.py, myRBT.py oraz myHmap.py. Kazda
+struktura danych jest zaimplementowana w pliku o odpowiedniej nazwie, natomiast w zad1.py znajduje sie main.
+Oprocz funckjonalnosci z tresci zadania program ma dodatkowa opcje --stat n, po ktorej wpisaniu program
+przeprwoadzi testy czasu wykonania kazdej z operacji dla wszystkich struktur. Test polega na stworzeniu
+listy kolejno 100-, 200-, ..., 1000-elementowej, dodaniu wszystkich jej elementow do danej struktury i
+wykonaniu wszystkich operacji. Dla tych, ktore wymagaja argumentu, zostal on wygenerowany losowo. Dla kazdej
+dlugosci listy ta procedura zostaje przeprowadzona n razy. Wygenerowane w ten sposob i opracowane przeze mnie
+statystyki dla n = 10 znajduja sie w arkuszu kalkulacyjnym lista4.xlsx.
+
+Zadanie 2
+Ograniczenie dolne
+Ograniczenie dolne dla kadej strukrury wynosi O(1), poniewaz jezeli szukany element jest korzeniem to wykonujemy
+tylko jedno porownanie, a w przypadku hmap gdy obliczamy wartosc funckji hashujacej i element szukany jest
+pierwszy na liscie/ w drzewie.
+Srednia
+Srednia liczba porownan wynosi O(log n) dla drzewa RB, poniewaz jest zbalansowane. Jezeli chodzi natomiast o BST
+to wszystko zalezy od tego w jakiej kolejnosci dodajemy elementy do drzewa. W wypadku hmap srednia jest 
+zalezna od tego jak rozlaza sie klucze w tablicy, tj. ilu elementowe beda dane w jej komorkach.
+Ograniczenie gorne
+Dla drzewa RB wynosi O(log n), poniewaz jest to najdluzsza sciezka jaka mozemy przejsc w drzewie. Dla drzewa
+BST pesymistycznym przypadkiem jest insertowanie elementow w kolejnosci rosnacej, a wtedy liczba porownan dla
+maksimum wyniesie n. Dla hmap pesymistycznym przypadkiem moze byc dobranie funkcji hashujacej, ktora przerzuca
+wszystkie elementy do jednej komorki tablicy. Wtedy jezeli korzystamy z listy i szukany element bedzie na koncu
+to wykonamy O(n) porownan, a jezeli z drzewa RB to wykonamy ich O(log n).
+Rozwiazanie zadania znajduje sie w pliku zad2.py, program ten nie przyjmuje zadnych parametrow. Po uruchomieniu
+tworzy dwie listy o dlugosciach 100, 200, ..., 1000 elementow, jedna z powtorzeniami, druga bez. Nastepnie 
+wczytuje je kolejno do wszystkich struktur (dla hmap gromadzi dane dla tej wykorzystujacej liste) i sprawdza ile
+wykonano porownan przy wywolaniu funckji find dla minimum, maksimum i losowego elementu listy.
+Wszystkie te pomiary zapisuje do odpowiednich plikow. Wygenerowane w ten sposob i opracowane przeze mnie
+statystyki znajduja sie w arkuszu kalkulacyjnym lista4.xlsx.
