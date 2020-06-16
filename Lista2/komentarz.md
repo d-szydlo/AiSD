@@ -1,5 +1,3 @@
-Dzien Dobry!
-Na drugiej liscie pojawilo sie sporo zadan, wiec uznalam, ze warto opatrzyc je komentarzem.
 W pliku zad1.py znajduje sie main, natomiast reszta plikow to moduly. zad1.py przyjmuje
 nastepujace parametry i opcje:
 1. --comp opcje: '<=', '>='; wymagany,
